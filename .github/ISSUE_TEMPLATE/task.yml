@@ -1,0 +1,30 @@
+name: 🎮 タスク（ゲーム開発）
+description: 実装・作業タスク用
+title: "[Task] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 概要
+      description: 何を作る／直すかを1文で
+      placeholder: 例）HPバーを画面左上に表示する
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: 完了条件
+      description: これが満たされたらDone
+      placeholder: |
+        ・表示が正しい
+        ・ダメージ時に更新される
+    validations:
+      required: true
+
+  - type: textarea
+    id: note
+    attributes:
+      label: 補足・参考情報
+      description: 仕様やバグの説明、画像、動画などがあれば
