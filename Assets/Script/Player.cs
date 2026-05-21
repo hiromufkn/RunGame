@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
         {
             Speed -= 3.0f;
         }
+ 
     }
 
     
