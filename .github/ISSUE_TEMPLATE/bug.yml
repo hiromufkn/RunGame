@@ -1,0 +1,83 @@
+name: 🐛 バグ報告
+description: ゲーム中の不具合を報告する
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: バグの概要
+      description: 何が起きているかを1文で
+      placeholder: 例）HPが0になってもゲームオーバーにならない
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: この通りに操作すると必ず起きる手順を書く
+      placeholder: |
+        1. ゲームを起動する
+        2. ステージ1を開始する
+        3. 敵に3回当たる
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 本来の挙動
+      placeholder: 例）HPが0になったらゲームオーバー画面に遷移する
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 実際の挙動
+      placeholder: 例）HPが0になってもプレイが続く
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: 発生頻度
+      options:
+        - 毎回起きる
+        - たまに起きる
+        - 一度だけ確認した
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 影響度
+      description: ゲームへの影響の大きさ
+      options:
+        - 致命的（進行不能・クラッシュ）
+        - 高（遊べるが大きな問題）
+        - 中（違和感・軽い不具合）
+        - 低（見た目・細かい問題）
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境
+      description: 分かる範囲でOK
+      placeholder: |
+        ・ゲームのバージョン：
+        ・コミットハッシュ：
+        ・#[Issue番号] 対応後
+    validations:
+      required: false
+
+  - type: textarea
+    id: note
+    attributes:
+      label: 補足・スクリーンショット
+      description: 画像・動画・ログなどがあれば
