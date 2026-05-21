@@ -64,11 +64,20 @@ public class Player : MonoBehaviour
             isGround = true;
         }
 
-        if(collision.gameObject.CompareTag("Obstacle"))
+        if(collision.gameObject.CompareTag("Obstacle1"))
         {
-            Speed -= 3.0f;
+            Speed -= 5.0f;
+        }
+
+        if(collision.gameObject.CompareTag("Obstacle2"))
+        {
+            Speed -= 15.0f;
         }
  
+        if(collision.gameObject.CompareTag("Obstacle3"))
+        {
+            Speed = 0f;
+        }
     }
 
     
