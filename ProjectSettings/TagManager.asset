@@ -8,6 +8,9 @@ TagManager:
   - Snow Tree
   - Ground
   - Obstacle
+  - Obstacle1
+  - Obstacle2
+  - Obstacle3
   layers:
   - Default
   - TransparentFX

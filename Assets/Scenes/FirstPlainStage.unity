@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree21
       objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -190,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -287,6 +295,10 @@ PrefabInstance:
     - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
       propertyPath: m_Name
       value: fence3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -467,6 +479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree stump2
       objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -541,6 +557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood 5
       objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.055136867
@@ -597,6 +617,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -695,6 +719,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4065963221955648834, guid: c4017f16071d8054081d319f99944673, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846768872335338861, guid: c4017f16071d8054081d319f99944673, type: 3}
+      propertyPath: Speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7846768872335338861, guid: c4017f16071d8054081d319f99944673, type: 3}
+      propertyPath: jumpPower
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -751,6 +787,10 @@ PrefabInstance:
     - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
       propertyPath: m_Name
       value: Tree2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -826,6 +866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood 8
       objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.372988
@@ -882,6 +926,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1005,6 +1053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box5
       objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9733256
@@ -1062,6 +1114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree6
       objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.83734
@@ -1118,6 +1174,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1216,6 +1276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock5
       objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1232,6 +1296,10 @@ PrefabInstance:
     - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_Name
       value: Tree4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1289,6 +1357,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1387,6 +1459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree17
       objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1443,6 +1519,10 @@ PrefabInstance:
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_Name
       value: rock8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1665,6 +1745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3
       objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1721,6 +1805,10 @@ PrefabInstance:
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_Name
       value: Tree stump5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1807,6 +1895,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1974,6 +2066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2084,6 +2180,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2211,6 +2311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood 6
       objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.384853
@@ -2333,6 +2437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree25
       objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.3474765
@@ -2390,6 +2498,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood 7
       objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.380252
@@ -2446,6 +2558,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2544,6 +2660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree stump
       objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2560,6 +2680,10 @@ PrefabInstance:
     - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_Name
       value: Tree20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2687,6 +2811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree16
       objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6404188
@@ -2743,6 +2871,10 @@ PrefabInstance:
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_Name
       value: FallenTree1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 4066085460673515473, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2841,6 +2973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock10
       objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2927,6 +3063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree27
       objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.340404
@@ -2984,6 +3124,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box1
       objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8
@@ -3040,6 +3184,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3207,6 +3355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence4
       objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3223,6 +3375,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3321,6 +3477,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree29
       objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3378,6 +3538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree5
       objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3394,6 +3558,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3452,6 +3620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree28
       objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.00035
@@ -3508,6 +3680,10 @@ PrefabInstance:
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_Name
       value: FallenTree2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 4066085460673515473, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3675,6 +3851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence2
       objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3691,6 +3871,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3737,6 +3921,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+--- !u!1 &1217572607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217572610}
+  - component: {fileID: 1217572609}
+  - component: {fileID: 1217572608}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1217572608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217572607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1217572609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217572607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1217572610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217572607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1238222874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3748,6 +4000,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3846,6 +4102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3862,6 +4122,10 @@ PrefabInstance:
     - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_Name
       value: Tree13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3984,6 +4248,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4147,6 +4415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree11
       objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4269,6 +4541,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock7
       objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4285,6 +4561,10 @@ PrefabInstance:
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_Name
       value: FallenTree3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 4066085460673515473, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4383,6 +4663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock11
       objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4468,6 +4752,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree23
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4566,6 +4854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree stump3
       objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4622,6 +4914,10 @@ PrefabInstance:
     - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
       propertyPath: m_Name
       value: Tree12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582586297653117726, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4749,6 +5045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree stump4
       objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4765,6 +5065,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4823,6 +5127,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree22
       objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.915965
@@ -4879,6 +5187,10 @@ PrefabInstance:
     - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_Name
       value: Tree14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4937,6 +5249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood
       objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1462166
@@ -4982,71 +5298,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
---- !u!1001 &1591327086
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 430
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 512791915377227826, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 888930047735374472, guid: 644e0838346a19c459373320e3603ce9, type: 3}
-      propertyPath: m_Name
-      value: Tunnel
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 644e0838346a19c459373320e3603ce9, type: 3}
 --- !u!1001 &1594711398
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5058,6 +5309,10 @@ PrefabInstance:
     - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_Name
       value: Tree7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5116,6 +5371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree18
       objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.683128
@@ -5172,6 +5431,10 @@ PrefabInstance:
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_Name
       value: FallenTree4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 4066085460673515473, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5299,6 +5562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree3
       objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.480622
@@ -5396,6 +5663,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock9
       objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5412,6 +5683,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5510,6 +5785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fence
       objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5526,6 +5805,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 939883500591993153, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5583,6 +5866,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5681,11 +5968,120 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+--- !u!1001 &1930447581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 209206560096276150, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2078486751}
+    - target: {fileID: 2353820198084408457, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2078486751}
+    - target: {fileID: 5542048560472486566, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
 --- !u!1001 &1951127145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5697,6 +6093,10 @@ PrefabInstance:
     - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_Name
       value: Tree24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5754,6 +6154,10 @@ PrefabInstance:
     - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_Name
       value: Tree9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1376211551841564274, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 1752632194548788424, guid: 9b35ad73b02132040821e5912b2d1c05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5880,6 +6284,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6116,6 +6524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sign
       objectReference: {fileID: 0}
+    - target: {fileID: 2960185362853805618, guid: 92ac9293d2e218448a4560b12bff1048, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6126,6 +6538,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 314674749778540008, guid: c4017f16071d8054081d319f99944673, type: 3}
   m_PrefabInstance: {fileID: 168172231}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2078486751 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7846768872335338861, guid: c4017f16071d8054081d319f99944673, type: 3}
+  m_PrefabInstance: {fileID: 168172231}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9858fec362ec8c84cbaf27acd09f3eb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2078548698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6203,6 +6626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box9
       objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.627049
@@ -6260,6 +6687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree8
       objectReference: {fileID: 0}
+    - target: {fileID: 8614337399028346761, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 8991320751500047667, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.54502904
@@ -6305,11 +6736,69 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65beb8cf348d7604bb4a6e9eea2df224, type: 3}
+--- !u!1001 &6414158877215059568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 430
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453595903365967665, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_Name
+      value: Tunnel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 420425126}
+  - {fileID: 1930447581}
   - {fileID: 561579709}
   - {fileID: 1335016525}
   - {fileID: 168172231}
@@ -6411,4 +6900,5 @@ SceneRoots:
   - {fileID: 1288380485}
   - {fileID: 1347070175}
   - {fileID: 66750385}
-  - {fileID: 1591327086}
+  - {fileID: 6414158877215059568}
+  - {fileID: 1217572610}
