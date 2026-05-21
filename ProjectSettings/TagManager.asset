@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Tree
   - Snow Tree
+  - Ground
   layers:
   - Default
   - TransparentFX

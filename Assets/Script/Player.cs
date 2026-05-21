@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
    public float jumpPower = 5.0f;
 
     private Rigidbody rb;
+    private bool isGround = true;
     
     private void Awake()
     {
@@ -26,9 +27,18 @@ public class Player : MonoBehaviour
         float move = Input.GetAxis("Horizontal");
         transform.Translate(move * Speed * Time.deltaTime,0,0);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space)&&isGround)
         {
-            rb.velocity = new Vector3(rb.velocity.x, jumpPower, rb.velocity.z);
+            rb.AddForce(Vector3.up*jumpPower, ForceMode.Impulse);
+            isGround = false;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Ground"))
+        {
+            isGround = true;
         }
     }
 
