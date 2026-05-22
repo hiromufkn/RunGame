@@ -297,6 +297,10 @@ PrefabInstance:
       value: fence3
       objectReference: {fileID: 0}
     - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -719,13 +723,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1212330689346429472, guid: c4017f16071d8054081d319f99944673, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4065963221955648834, guid: c4017f16071d8054081d319f99944673, type: 3}
       propertyPath: m_Constraints
       value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 7846768872335338861, guid: c4017f16071d8054081d319f99944673, type: 3}
       propertyPath: Speed
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7846768872335338861, guid: c4017f16071d8054081d319f99944673, type: 3}
       propertyPath: jumpPower
@@ -3356,6 +3364,10 @@ PrefabInstance:
       value: fence4
       objectReference: {fileID: 0}
     - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -3850,6 +3862,10 @@ PrefabInstance:
     - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
       propertyPath: m_Name
       value: fence2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
       propertyPath: m_TagString
@@ -5786,6 +5802,10 @@ PrefabInstance:
       value: fence
       objectReference: {fileID: 0}
     - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997130904523336899, guid: a0053516851dcf34a97cfaea41ae30f5, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -6787,6 +6807,10 @@ PrefabInstance:
     - target: {fileID: 6453595903365967665, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
       propertyPath: m_Name
       value: Tunnel
+      objectReference: {fileID: 0}
+    - target: {fileID: 6453595903365967665, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
