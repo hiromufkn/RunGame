@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -8,11 +10,15 @@ public class Player : MonoBehaviour
    public float jumpPower = 5.0f;
    public float Distance { get; private set; }
     public bool isGameOver = false;
+    public float invincibleTime = 2.0f;
 
     private Rigidbody rb;
     private bool isGround = true;
     private float startZ;
     private float nextSpeedUp = 50.0f;
+    private bool isInvincible = false;
+    private Renderer playerRenderer;
+    private float move;
     
     private void Awake()
     {
@@ -24,16 +30,24 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         startZ = transform.position.z;
+
+        playerRenderer = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Speed <= 0)
+        {
+            Debug.Log("’âŽ~");
+        }
+
         if (isGameOver) return;
 
-        transform.Translate(Vector3.forward * Speed * Time.deltaTime);
-        float move = Input.GetAxis("Horizontal");
-        transform.Translate(move * Speed * Time.deltaTime,0,0);
+
+        //transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+        move = Input.GetAxis("Horizontal");
+        //transform.Translate(move * Speed * Time.deltaTime,0,0);
 
          Distance =  transform.position.z-startZ;
 
@@ -64,22 +78,74 @@ public class Player : MonoBehaviour
             isGround = true;
         }
 
+        if (isInvincible) return;
+
         if(collision.gameObject.CompareTag("Obstacle1"))
         {
             Speed -= 5.0f;
+            if(Speed<=3)
+            {
+                Speed = 0;
+            }
+
+            StartCoroutine(Invincible());
         }
+
+        
 
         if(collision.gameObject.CompareTag("Obstacle2"))
         {
             Speed -= 15.0f;
+
+            StartCoroutine(Invincible());
         }
  
         if(collision.gameObject.CompareTag("Obstacle3"))
         {
             Speed = 0f;
         }
+
     }
 
-    
+
+    IEnumerator Invincible()
+    {
+        isInvincible = true;
+
+        SetLayerRecursively(gameObject, LayerMask.NameToLayer("invinciblePlayer"));
+
+        for (int i=0; i <= 10; i++)
+        {
+            playerRenderer.enabled = false;
+            yield return new WaitForSeconds(0.1f);
+
+            playerRenderer.enabled = true;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        SetLayerRecursively(gameObject, LayerMask.NameToLayer("player"));
+
+        isInvincible = false;
+    }
+
+    void SetLayerRecursively(GameObject obj,int newLayer)
+    {
+        obj.layer = newLayer;
+
+        foreach(Transform child in obj.transform)
+        {
+            SetLayerRecursively(child.gameObject, newLayer);
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (isGameOver) return;
+
+        rb.velocity = new Vector3(move * Speed, rb.velocity.y, Speed);
+
+    }
 
 }
+
+
