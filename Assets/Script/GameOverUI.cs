@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class GameOverUI : MonoBehaviour
 {
@@ -25,6 +27,11 @@ public class GameOverUI : MonoBehaviour
             //gameOverText.tag = "èIóπ" + player.name;
 
             ScoreText.text = "Score" + player.Distance.ToString("F0") + "m";
+
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 }

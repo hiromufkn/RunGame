@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightHouse
       objectReference: {fileID: 0}
+    - target: {fileID: 3721409931440501370, guid: 050b0f705d446fc4893e72b786f3fb53, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 4102438623351105728, guid: 050b0f705d446fc4893e72b786f3fb53, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.665741
@@ -374,6 +378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: RightWall5
@@ -503,6 +511,10 @@ PrefabInstance:
     - target: {fileID: 8402217179507385250, guid: 134d62d33db21b84eb10c6fed8037b92, type: 3}
       propertyPath: m_Name
       value: LeftHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 8402217179507385250, guid: 134d62d33db21b84eb10c6fed8037b92, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 9210279802341734680, guid: 134d62d33db21b84eb10c6fed8037b92, type: 3}
       propertyPath: m_LocalPosition.x
@@ -825,6 +837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftHouse3
       objectReference: {fileID: 0}
+    - target: {fileID: 8402217179507385250, guid: 134d62d33db21b84eb10c6fed8037b92, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 9210279802341734680, guid: 134d62d33db21b84eb10c6fed8037b92, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.918184
@@ -1000,6 +1016,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: RightWall6
@@ -1557,6 +1577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftHouse2
       objectReference: {fileID: 0}
+    - target: {fileID: 3721409931440501370, guid: 050b0f705d446fc4893e72b786f3fb53, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 4102438623351105728, guid: 050b0f705d446fc4893e72b786f3fb53, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.164652
@@ -1839,6 +1863,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -1969,6 +1997,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -2254,6 +2286,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -2384,6 +2420,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: RightWall5
@@ -2754,6 +2794,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -3006,6 +3050,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: LeftWall6
@@ -3258,6 +3306,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -3758,6 +3810,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: LeftWall7
@@ -4204,6 +4260,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: RightWall8
@@ -4456,6 +4516,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: RightWall9
@@ -4704,6 +4768,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: LeftWall5
@@ -4956,6 +5024,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -5513,6 +5585,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -6025,6 +6101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6428573785005771544, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 900
+      objectReference: {fileID: 0}
     - target: {fileID: 8265046174164967072, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6240,6 +6320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: LeftWall8
@@ -6370,6 +6454,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: short-wall
@@ -6439,6 +6527,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8534750949851110454, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6074611242654122493, guid: b7a4ceb575b691645a244858c47de8e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 10
@@ -6585,6 +6677,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1358887771481727218, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 6248325161979612122, guid: cfcd147ed350a4041b1881caa7450dd8, type: 3}
       propertyPath: m_Name
       value: RightWall7

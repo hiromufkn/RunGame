@@ -7,10 +7,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
    public  float Speed=5.0f;
+   public float moveSpeed = 5.0f;
    public float jumpPower = 5.0f;
    public float Distance { get; private set; }
-    public bool isGameOver = false;
-    public float invincibleTime = 2.0f;
+   public bool isGameOver = false;
+   public float invincibleTime = 2.0f;
+   public float limitX = 5.0f;
 
     private Rigidbody rb;
     private bool isGround = true;
@@ -18,7 +20,7 @@ public class Player : MonoBehaviour
     private float nextSpeedUp = 50.0f;
     private bool isInvincible = false;
     private Renderer playerRenderer;
-    private float move;
+    private float move ;
     
     private void Awake()
     {
@@ -142,7 +144,28 @@ public class Player : MonoBehaviour
     {
         if (isGameOver) return;
 
-        rb.velocity = new Vector3(move * Speed, rb.velocity.y, Speed);
+        Vector3 velocity = rb.velocity;
+
+        velocity.x = move * moveSpeed;
+        velocity.z = Speed;
+
+        if(transform.position.x<=-limitX&&velocity.x<0)
+        {
+            velocity.x = 0;
+        }
+
+        if(transform.position.x>=limitX&&velocity.x>0)
+        {
+            velocity.x = 0;
+        }
+
+        rb.velocity = velocity;
+
+        //Vector3 pos = transform.position;
+
+        //pos.x = Mathf.Clamp(pos.x, -limitX, limitX);
+
+        //transform.position = pos;
 
     }
 
