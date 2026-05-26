@@ -731,6 +731,14 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 112
       objectReference: {fileID: 0}
+    - target: {fileID: 4065963221955648834, guid: c4017f16071d8054081d319f99944673, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4065963221955648834, guid: c4017f16071d8054081d319f99944673, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7846768872335338861, guid: c4017f16071d8054081d319f99944673, type: 3}
       propertyPath: Speed
       value: 7
@@ -6770,7 +6778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6093512135630083084, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6810,7 +6818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6453595903365967665, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
       propertyPath: m_TagString
-      value: Ground
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
