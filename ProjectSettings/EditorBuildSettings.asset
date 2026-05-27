@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FirstPlainStage.unity
+    guid: 2901dc3a188c70b42b1b775b6995dd9f
+  - enabled: 1
+    path: Assets/Scenes/SnowStage.unity
+    guid: 69141c26b72a91c4ab1b06e84fc02fca
+  - enabled: 1
+    path: Assets/Scenes/CaveStage.unity
+    guid: 5cf27bca5d853bd47ad01abfdfa54f8f
   m_configObjects: {}

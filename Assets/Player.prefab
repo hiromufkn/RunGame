@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 975553086310167074}
   m_Layer: 10
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,9 +99,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 7
+  moveSpeed: 5
   jumpPower: 7
   isGameOver: 0
   invincibleTime: 2
+  limitX: 20
 --- !u!54 &4065963221955648834
 Rigidbody:
   m_ObjectHideFlags: 0
