@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
    public bool isGameOver = false;
    public float invincibleTime = 2.0f;
    public float limitX = 5.0f;
+   public static float TotalDistance=0f;
 
     private Rigidbody rb;
     private bool isGround = true;
@@ -51,7 +52,8 @@ public class Player : MonoBehaviour
         move = Input.GetAxis("Horizontal");
         //transform.Translate(move * Speed * Time.deltaTime,0,0);
 
-         Distance =  transform.position.z-startZ;
+         Distance = TotalDistance+(transform.position.z-startZ);
+
 
         if(Distance>=nextSpeedUp)
         {
