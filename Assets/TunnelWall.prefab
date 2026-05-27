@@ -94,7 +94,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: TunnelUp
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8998934976479711255, guid: 644e0838346a19c459373320e3603ce9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
