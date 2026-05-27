@@ -57,7 +57,7 @@ public class GoalSceneChanger : MonoBehaviour
                 }
                 else
                 {
-                    //Player.TotalDistance = player.Distance;
+                    Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("CaveStage");
                 }
 

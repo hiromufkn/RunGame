@@ -492,6 +492,10 @@ PrefabInstance:
       value: Tree stump2
       objectReference: {fileID: 0}
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -574,6 +578,10 @@ PrefabInstance:
       value: wood 5
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -633,6 +641,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
@@ -899,6 +911,10 @@ PrefabInstance:
       value: wood 8
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -1090,6 +1106,10 @@ PrefabInstance:
       value: Box5
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -1212,6 +1232,10 @@ PrefabInstance:
       value: Box2
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -1313,6 +1337,10 @@ PrefabInstance:
       value: rock5
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -1393,6 +1421,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
@@ -1555,6 +1587,10 @@ PrefabInstance:
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_Name
       value: rock8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
@@ -1786,6 +1822,10 @@ PrefabInstance:
       value: rock3
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -1845,6 +1885,10 @@ PrefabInstance:
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_Name
       value: Tree stump5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_TagString
@@ -1939,6 +1983,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_TagString
@@ -2115,6 +2163,10 @@ PrefabInstance:
       value: barrel
       objectReference: {fileID: 0}
     - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -2228,6 +2280,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_TagString
@@ -2362,6 +2418,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
@@ -2555,6 +2615,10 @@ PrefabInstance:
       value: wood 7
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -2614,6 +2678,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_TagString
@@ -2715,6 +2783,10 @@ PrefabInstance:
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_Name
       value: Tree stump
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_TagString
@@ -2933,6 +3005,10 @@ PrefabInstance:
       value: FallenTree1
       objectReference: {fileID: 0}
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -3032,6 +3108,10 @@ PrefabInstance:
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_Name
       value: rock10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
@@ -3244,6 +3324,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
@@ -3504,6 +3588,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_TagString
@@ -3811,6 +3899,10 @@ PrefabInstance:
       value: FallenTree2
       objectReference: {fileID: 0}
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -4010,6 +4102,10 @@ PrefabInstance:
       value: Box6
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -4139,6 +4235,10 @@ PrefabInstance:
       value: Box7
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -4238,6 +4338,10 @@ PrefabInstance:
     - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
       propertyPath: m_Name
       value: barrel 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
       propertyPath: m_TagString
@@ -4744,6 +4848,10 @@ PrefabInstance:
       value: rock7
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -4763,6 +4871,10 @@ PrefabInstance:
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_Name
       value: FallenTree3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_TagString
@@ -4864,6 +4976,10 @@ PrefabInstance:
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_Name
       value: rock11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
@@ -5061,6 +5177,10 @@ PrefabInstance:
       value: Tree stump3
       objectReference: {fileID: 0}
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -5256,6 +5376,10 @@ PrefabInstance:
       value: Tree stump4
       objectReference: {fileID: 0}
     - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6813791861052377622, guid: 175a165932dd5c049bb88dceb2b45774, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -5275,6 +5399,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
@@ -5460,6 +5588,10 @@ PrefabInstance:
       value: wood
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -5641,6 +5773,10 @@ PrefabInstance:
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_Name
       value: FallenTree4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3685760349101036907, guid: 36b6168b2c1ac8c46b450971364fc399, type: 3}
       propertyPath: m_TagString
@@ -5878,6 +6014,10 @@ PrefabInstance:
       value: rock9
       objectReference: {fileID: 0}
     - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5293347301431593613, guid: 5ced480c3a3161044bdd05dab504b027, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -5897,6 +6037,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
@@ -6023,6 +6167,10 @@ PrefabInstance:
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Name
       value: wood 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 450627955773213691, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_TagString
@@ -6185,6 +6333,10 @@ PrefabInstance:
     - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
       propertyPath: m_Name
       value: barrel 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
       propertyPath: m_TagString
@@ -6512,6 +6664,10 @@ PrefabInstance:
       value: Box8
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -6759,6 +6915,10 @@ PrefabInstance:
       value: sign
       objectReference: {fileID: 0}
     - target: {fileID: 2960185362853805618, guid: 92ac9293d2e218448a4560b12bff1048, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2960185362853805618, guid: 92ac9293d2e218448a4560b12bff1048, type: 3}
       propertyPath: m_TagString
       value: Obstacle1
       objectReference: {fileID: 0}
@@ -6863,6 +7023,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: Box9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_TagString
