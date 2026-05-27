@@ -77,6 +77,12 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        Vector3 velocity = rb.velocity;
+
+        velocity.y = 0f;
+
+        rb.velocity = velocity;
+
         if(collision.gameObject.CompareTag("Ground"))
         {
             isGround = true;
