@@ -174,6 +174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: barrel
       objectReference: {fileID: 0}
+    - target: {fileID: 3122438700662233592, guid: fdc5d477f23156546b60b8f4a7752a6f, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -190,6 +194,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -248,6 +268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1622345
@@ -304,6 +328,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -419,6 +459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.664663
@@ -528,6 +572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -551,6 +599,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -609,6 +673,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1732388
@@ -665,6 +745,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -723,6 +807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.1336597
@@ -780,6 +868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_003 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.404805
@@ -836,6 +928,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -946,6 +1054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -996,6 +1108,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1054,6 +1182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_003
       objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.975061
@@ -1111,6 +1243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: apple-1
       objectReference: {fileID: 0}
+    - target: {fileID: 2753334903629079, guid: 0c6d3045551b97b49baaffded7af98ef, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 811237855917555629, guid: 0c6d3045551b97b49baaffded7af98ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.525753
@@ -1167,6 +1303,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1282,6 +1434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minecart_v2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 7937195568730081054, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1385,6 +1541,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.950003
@@ -1442,6 +1614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: table_003
       objectReference: {fileID: 0}
+    - target: {fileID: 79277893953283697, guid: a8652eeb261b0de428addd9b0fe03189, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 743787178602020043, guid: a8652eeb261b0de428addd9b0fe03189, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.590894
@@ -1495,6 +1671,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635533863048192786, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
+    - target: {fileID: 1667969232288228089, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 0cbfa3f3f2d0f8d418738637502bde99, type: 2}
     - target: {fileID: 2249783660462508878, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
       propertyPath: m_Name
       value: Tunnel
@@ -1555,6 +1739,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1917,6 +2117,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: box_003 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.684102
@@ -1973,6 +2177,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2071,6 +2291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chest_001
       objectReference: {fileID: 0}
+    - target: {fileID: 2096905498634103579, guid: 0b167a8b741584f4cb231ef8d05de54d, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2087,6 +2311,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2145,6 +2373,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.077013
@@ -2202,6 +2446,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.3496222
@@ -2258,6 +2518,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2484,6 +2760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: minecart_v2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     - target: {fileID: 7937195568730081054, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -2656,6 +2936,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.361933
@@ -2807,6 +3103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: chair
       objectReference: {fileID: 0}
+    - target: {fileID: 4835983531915757469, guid: 6f2e0b23503936b4cb3fa446fa5d43ec, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     - target: {fileID: 5212650259062856999, guid: 6f2e0b23503936b4cb3fa446fa5d43ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.223919
@@ -2864,6 +3164,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.7617216
@@ -2920,6 +3236,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3112,6 +3444,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.472732
@@ -3168,6 +3516,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3226,6 +3590,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.091195
@@ -3283,6 +3663,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.74517
@@ -3339,6 +3735,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3511,6 +3923,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.293213
@@ -3567,6 +3995,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: box_003 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3625,6 +4057,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.512268
@@ -3681,6 +4129,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: box_003 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3881,6 +4333,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.38691232
@@ -4047,6 +4515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sign (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2960185362853805618, guid: 92ac9293d2e218448a4560b12bff1048, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4173,6 +4645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4223,6 +4699,10 @@ PrefabInstance:
     - target: {fileID: 79277893953283697, guid: a8652eeb261b0de428addd9b0fe03189, type: 3}
       propertyPath: m_Name
       value: table_003 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 79277893953283697, guid: a8652eeb261b0de428addd9b0fe03189, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 743787178602020043, guid: a8652eeb261b0de428addd9b0fe03189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4350,6 +4830,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.290986
@@ -4406,6 +4902,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4585,6 +5085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4635,6 +5139,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4692,6 +5212,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4870,6 +5406,10 @@ PrefabInstance:
     - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Name
       value: Rail_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5067,6 +5607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sign
       objectReference: {fileID: 0}
+    - target: {fileID: 2960185362853805618, guid: 92ac9293d2e218448a4560b12bff1048, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5210,6 +5754,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8985476
@@ -5267,6 +5815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.90419
@@ -5323,6 +5875,10 @@ PrefabInstance:
     - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_Name
       value: minecart_v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
       objectReference: {fileID: 0}
     - target: {fileID: 7937195568730081054, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_LocalScale.x
@@ -5426,6 +5982,10 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5536,6 +6096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5586,6 +6150,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5917,6 +6497,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TunnelWall
       objectReference: {fileID: 0}
+    - target: {fileID: 2543963760274100537, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3867163147919895489, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7537994546518808437, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6043,6 +6635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6146,6 +6742,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rail_A (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6011145271509143880, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8864243179354567983, guid: 2dacf3d7ab256b44f831043d5eee41e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6196,6 +6796,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6254,6 +6870,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.704603
@@ -6310,6 +6942,10 @@ PrefabInstance:
     - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_Name
       value: box_003 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646802535568081025, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 8985892624175716923, guid: 6b0cb44783a14da4f980557bf68911a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6368,6 +7004,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.4452615
@@ -6424,6 +7076,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6551,6 +7219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.1801195
@@ -6607,6 +7279,22 @@ PrefabInstance:
     - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_Name
       value: rock (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7265325045333176431, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8041262957552036565, guid: 1a2b9fd112c4add49a55d23c9650d5f9, type: 3}
       propertyPath: m_LocalPosition.x
