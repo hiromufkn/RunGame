@@ -17,24 +17,57 @@ public class GoalSceneChanger : MonoBehaviour
         
     }
 
-    [SerializeField] private string sceneA;
-    [SerializeField] private string sceneB;
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            // 0か1をランダム取得
-            int randomValue = Random.Range(0, 2);
+        if (!other.CompareTag("Player"))
+            return;
 
-            if (randomValue == 0)
-            {
-                SceneManager.LoadScene(sceneA);
-            }
-            else
-            {
-                SceneManager.LoadScene(sceneB);
-            }
+        // 現在のシーン名取得
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        // 0か1をランダム取得
+        int randomValue = Random.Range(0, 2);
+
+        switch (currentScene)
+        {
+            case "FirstPlainStage":
+
+                if (randomValue == 0)
+                {
+                    SceneManager.LoadScene("SnowStage");
+                }
+                else
+                {
+                    SceneManager.LoadScene("CaveStage");
+                }
+
+                break;
+
+            case "SnowStage":
+
+                if (randomValue == 0)
+                {
+                    SceneManager.LoadScene("FirstPlainStage");
+                }
+                else
+                {
+                    SceneManager.LoadScene("CaveStage");
+                }
+
+                break;
+
+            case "CaveStage":
+
+                if (randomValue == 0)
+                {
+                    SceneManager.LoadScene("FirstPlainStage");
+                }
+                else
+                {
+                    SceneManager.LoadScene("SnowStage");
+                }
+
+                break;
         }
     }
 }
