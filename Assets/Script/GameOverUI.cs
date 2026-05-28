@@ -31,6 +31,7 @@ public class GameOverUI : MonoBehaviour
             if(Input.GetKeyDown(KeyCode.Space))
             {
                 Player.TotalDistance = 0f;
+                Player.TotalSpeed = 7f;
 
                 SceneManager.LoadScene("FirstPlainStage");
             }

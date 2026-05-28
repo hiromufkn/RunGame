@@ -14,11 +14,15 @@ public class Player : MonoBehaviour
    public float invincibleTime = 2.0f;
    public float limitX = 5.0f;
    public static float TotalDistance=0f;
+   public static float TotalSpeed = 7f;
+   public float SpeedMax = 80f;
+   public static float NextSpeedUp = 50.0f;
+
 
     private Rigidbody rb;
     private bool isGround = true;
     private float startZ;
-    private float nextSpeedUp = 50.0f;
+    private float nextSpeedUp;
     private bool isInvincible = false;
     private Renderer playerRenderer;
     private float move ;
@@ -35,6 +39,10 @@ public class Player : MonoBehaviour
         startZ = transform.position.z;
 
         playerRenderer = GetComponent<Renderer>();
+
+        Speed = TotalSpeed;
+
+        nextSpeedUp = NextSpeedUp;
     }
 
     // Update is called once per frame
@@ -55,11 +63,13 @@ public class Player : MonoBehaviour
          Distance = TotalDistance+(transform.position.z-startZ);
 
 
-        if(Distance>=nextSpeedUp)
+        if(Distance>=nextSpeedUp&&Speed<SpeedMax)
         {
             Speed += 1.0f;
 
             nextSpeedUp += 50.0f;
+
+            NextSpeedUp = nextSpeedUp;
         }
 
         if(Speed<=0)
@@ -67,6 +77,7 @@ public class Player : MonoBehaviour
             Speed = 0;
             isGameOver = true;
         }
+
 
         if (Input.GetKeyDown(KeyCode.Space)&&isGround)
         {
@@ -156,6 +167,11 @@ public class Player : MonoBehaviour
 
         velocity.x = move * moveSpeed;
         velocity.z = Speed;
+
+        if(velocity.y>14f)
+        {
+            velocity.y = 14f;
+        }
 
         if(transform.position.x<=-limitX&&velocity.x<0)
         {

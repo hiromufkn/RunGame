@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -37,11 +38,13 @@ public class GoalSceneChanger : MonoBehaviour
 
                 if (randomValue == 0)
                 {
+                    Player.TotalSpeed = player.Speed;
                     Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("SnowStage");
                 }
                 else
                 {
+                    Player.TotalSpeed = player.Speed;
                     Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("CaveStage");
                 }
@@ -52,11 +55,13 @@ public class GoalSceneChanger : MonoBehaviour
 
                 if (randomValue == 0)
                 {
+                    Player.TotalSpeed = player.Speed;
                     Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("FirstPlainStage");
                 }
                 else
                 {
+                    Player.TotalSpeed = player.Speed;
                     Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("CaveStage");
                 }
@@ -67,11 +72,13 @@ public class GoalSceneChanger : MonoBehaviour
 
                 if (randomValue == 0)
                 {
+                    Player.TotalSpeed = player.Speed;
                     Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("FirstPlainStage");
                 }
                 else
                 {
+                    Player.TotalSpeed = player.Speed;
                     Player.TotalDistance = player.Distance;
                     SceneManager.LoadScene("SnowStage");
                 }
