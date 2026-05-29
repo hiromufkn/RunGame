@@ -1728,6 +1728,10 @@ PrefabInstance:
       value: minecart_v2 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -3022,6 +3026,10 @@ PrefabInstance:
     - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_Name
       value: minecart_v2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_TagString
@@ -6712,6 +6720,10 @@ PrefabInstance:
     - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_Name
       value: minecart_v2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7308574725507538340, guid: bd91fbcacf35bf3419c7b0f9654600ff, type: 3}
       propertyPath: m_TagString
