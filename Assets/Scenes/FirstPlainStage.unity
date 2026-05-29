@@ -1081,6 +1081,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2107701997864397358, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3644138635123132693, guid: 081f4a77328c01c47a655da1fddb1dfc, type: 3}
       propertyPath: m_Material
       value: 
@@ -3458,6 +3462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tunnel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2274151335563112535, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5625250558795267127, guid: 700b048d07dca5742bf64fc2dedae608, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4074,6 +4082,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1416264815}
     m_Modifications:
+    - target: {fileID: 2636964807806313163, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3806471158239304100, guid: cae6c2c4f34c9474ca83ade38a247d8b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.517157
@@ -5149,6 +5161,10 @@ PrefabInstance:
     - target: {fileID: 5443065989657444798, guid: e4b7ee855e6fe0640ae15f3068cf68d7, type: 3}
       propertyPath: m_TagString
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5443065989657444798, guid: e4b7ee855e6fe0640ae15f3068cf68d7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5443065989657615774, guid: e4b7ee855e6fe0640ae15f3068cf68d7, type: 3}
       propertyPath: m_LocalScale.z
@@ -8164,6 +8180,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 443533425515794082, guid: 48beff4b5123c89419367978af7e86ef, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101981498158257902, guid: 48beff4b5123c89419367978af7e86ef, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101981498158257902, guid: 48beff4b5123c89419367978af7e86ef, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6147024526369791152, guid: 48beff4b5123c89419367978af7e86ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8208,7 +8236,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goal
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 443533425515794082, guid: 48beff4b5123c89419367978af7e86ef, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8221,6 +8250,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1277709700770531266, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1672456175450742431, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8265,6 +8298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TunnelWall
       objectReference: {fileID: 0}
+    - target: {fileID: 3362517753873336852, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3867163147919895489, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
@@ -8272,6 +8309,10 @@ PrefabInstance:
     - target: {fileID: 7537994546518808437, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8330720783353149088, guid: 9ecd68ef36722c343857af0bb50c833e, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8536,6 +8577,7 @@ SceneRoots:
   - {fileID: 1699664322}
   - {fileID: 1475278452}
   - {fileID: 521129712}
+  - {fileID: 1987659810}
   - {fileID: 1452661803}
   - {fileID: 805875768}
   - {fileID: 1126473031}
@@ -8547,7 +8589,6 @@ SceneRoots:
   - {fileID: 2053705572}
   - {fileID: 494578295}
   - {fileID: 922771226}
-  - {fileID: 1987659810}
   - {fileID: 673114190}
   - {fileID: 79867757}
   - {fileID: 281834081}
