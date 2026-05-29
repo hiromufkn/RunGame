@@ -622,6 +622,10 @@ PrefabInstance:
       value: Snowman6
       objectReference: {fileID: 0}
     - target: {fileID: 2196600302573777373, guid: 35cb40a8633fa9640aae958f1e2c97c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2196600302573777373, guid: 35cb40a8633fa9640aae958f1e2c97c0, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -701,6 +705,10 @@ PrefabInstance:
     - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
       propertyPath: m_Name
       value: SnowTree2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
       propertyPath: m_TagString
@@ -1523,6 +1531,10 @@ PrefabInstance:
       value: SnowTree4
       objectReference: {fileID: 0}
     - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -1834,6 +1846,10 @@ PrefabInstance:
     - target: {fileID: 2860532337484566204, guid: 542fbc0d02af70f42a2a7b3afadc51eb, type: 3}
       propertyPath: m_Name
       value: SnowTree10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860532337484566204, guid: 542fbc0d02af70f42a2a7b3afadc51eb, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2860532337484566204, guid: 542fbc0d02af70f42a2a7b3afadc51eb, type: 3}
       propertyPath: m_TagString
@@ -2160,6 +2176,10 @@ PrefabInstance:
       value: SnowTree6
       objectReference: {fileID: 0}
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -2442,6 +2462,10 @@ PrefabInstance:
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_Name
       value: SnowTree15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_TagString
@@ -2753,6 +2777,10 @@ PrefabInstance:
     - target: {fileID: 2860532337484566204, guid: 542fbc0d02af70f42a2a7b3afadc51eb, type: 3}
       propertyPath: m_Name
       value: SnowTree14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2860532337484566204, guid: 542fbc0d02af70f42a2a7b3afadc51eb, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2860532337484566204, guid: 542fbc0d02af70f42a2a7b3afadc51eb, type: 3}
       propertyPath: m_TagString
@@ -3230,6 +3258,10 @@ PrefabInstance:
       value: SnowTree1
       objectReference: {fileID: 0}
     - target: {fileID: 2573237484613203894, guid: 48e15bd8b8846094cb1415a56d5dd149, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573237484613203894, guid: 48e15bd8b8846094cb1415a56d5dd149, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -3696,6 +3728,10 @@ PrefabInstance:
     - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
       propertyPath: m_Name
       value: SnowTree5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
       propertyPath: m_TagString
@@ -4279,6 +4315,10 @@ PrefabInstance:
       value: SnowTree11
       objectReference: {fileID: 0}
     - target: {fileID: 7111810890533166908, guid: 1c8c94931f995464b82aed7e7e58fa62, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111810890533166908, guid: 1c8c94931f995464b82aed7e7e58fa62, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -4346,6 +4386,10 @@ PrefabInstance:
     - target: {fileID: 4097637119886308361, guid: f23815393c574204d9b710b61612b789, type: 3}
       propertyPath: m_Name
       value: SnowTree7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097637119886308361, guid: f23815393c574204d9b710b61612b789, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4097637119886308361, guid: f23815393c574204d9b710b61612b789, type: 3}
       propertyPath: m_TagString
@@ -4582,6 +4626,10 @@ PrefabInstance:
       value: SnowTree3
       objectReference: {fileID: 0}
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -4649,6 +4697,10 @@ PrefabInstance:
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_Name
       value: SnowTree16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_TagString
@@ -4786,6 +4838,10 @@ PrefabInstance:
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_Name
       value: SnowTree9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6285954254875397003, guid: 0799b7e156278804a9e90b1a825618a0, type: 3}
       propertyPath: m_TagString
@@ -6250,6 +6306,10 @@ PrefabInstance:
       value: SnowTree8
       objectReference: {fileID: 0}
     - target: {fileID: 2573237484613203894, guid: 48e15bd8b8846094cb1415a56d5dd149, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2573237484613203894, guid: 48e15bd8b8846094cb1415a56d5dd149, type: 3}
       propertyPath: m_TagString
       value: Obstacle2
       objectReference: {fileID: 0}
@@ -7307,6 +7367,10 @@ PrefabInstance:
       value: SnowTree13
       objectReference: {fileID: 0}
     - target: {fileID: 4097637119886308361, guid: f23815393c574204d9b710b61612b789, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097637119886308361, guid: f23815393c574204d9b710b61612b789, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -7990,6 +8054,10 @@ PrefabInstance:
       value: SnowTree12
       objectReference: {fileID: 0}
     - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708844785584888064, guid: 71a76a7584b465e43994f6de9099395b, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
       objectReference: {fileID: 0}
@@ -8356,6 +8424,10 @@ PrefabInstance:
     - target: {fileID: 4283429878576995869, guid: 8f45cc4a1e2e2ed42a7d686054a0437e, type: 3}
       propertyPath: m_Name
       value: Snowman5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283429878576995869, guid: 8f45cc4a1e2e2ed42a7d686054a0437e, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4283429878576995869, guid: 8f45cc4a1e2e2ed42a7d686054a0437e, type: 3}
       propertyPath: m_TagString
