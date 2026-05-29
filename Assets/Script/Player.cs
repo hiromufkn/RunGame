@@ -15,8 +15,10 @@ public class Player : MonoBehaviour
    public float limitX = 5.0f;
    public static float TotalDistance=0f;
    public static float TotalSpeed = 7f;
+   public static float Totalhit = 0f;
    public float SpeedMax = 80f;
    public static float NextSpeedUp = 50.0f;
+   public int Maxhit = 5;
 
 
     private Rigidbody rb;
@@ -78,6 +80,10 @@ public class Player : MonoBehaviour
             isGameOver = true;
         }
 
+        if(Totalhit>=Maxhit)
+        {
+            isGameOver = true;
+        }
 
         if (Input.GetKeyDown(KeyCode.Space)&&isGround)
         {
@@ -104,6 +110,9 @@ public class Player : MonoBehaviour
         if(collision.gameObject.CompareTag("Obstacle1"))
         {
             Speed -= 5.0f;
+
+            Totalhit++;
+
             if(Speed<=3)
             {
                 Speed = 0;
@@ -117,6 +126,8 @@ public class Player : MonoBehaviour
         if(collision.gameObject.CompareTag("Obstacle2"))
         {
             Speed -= 15.0f;
+
+            Totalhit++;
 
             StartCoroutine(Invincible());
         }
