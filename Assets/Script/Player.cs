@@ -65,11 +65,15 @@ public class Player : MonoBehaviour
          Distance = TotalDistance+(transform.position.z-startZ);
 
 
-        if(Distance>=nextSpeedUp&&Speed<SpeedMax)
+        if (Distance >= nextSpeedUp)
         {
-            Speed += 1.0f;
-
             nextSpeedUp += 50.0f;
+           
+            if (Speed < SpeedMax)
+            {
+
+                Speed += 1.0f;
+            }
 
             NextSpeedUp = nextSpeedUp;
         }
