@@ -94,6 +94,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TunnelUp
       objectReference: {fileID: 0}
+    - target: {fileID: 888930047735374472, guid: 644e0838346a19c459373320e3603ce9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -8998934976479711255, guid: 644e0838346a19c459373320e3603ce9, type: 3}
     m_RemovedGameObjects: []
@@ -242,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 2249533074971366800, guid: 351f84b26ef80a94a9c8594ea51801ec, type: 3}
       propertyPath: m_TagString
       value: Obstacle3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2249533074971366800, guid: 351f84b26ef80a94a9c8594ea51801ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
