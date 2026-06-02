@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -28,6 +29,9 @@ public class Player : MonoBehaviour
     private bool isInvincible = false;
     private Renderer playerRenderer;
     private float move ;
+    private Vector2 StartTouchPos;
+    private Vector2 EndTouchPos;
+    private float SwipeMoveTime=0f;
     
     private void Awake()
     {
@@ -59,6 +63,40 @@ public class Player : MonoBehaviour
 
 
         //transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+
+
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+
+                    StartTouchPos = touch.position;
+
+                    break;
+
+                case TouchPhase.Ended:
+
+                    EndTouchPos = touch.position;
+
+                    float SwipeX = EndTouchPos.x - StartTouchPos.x;
+
+                    if(SwipeX>50f)
+                    {
+                        move = 1f;
+                        SwipeMoveTime = 0.2f;
+                    }
+
+                    if(SwipeX<50f)
+                    {
+                        move = -1f;
+                        SwipeMoveTime = 0.2f;
+                    }
+
+                    break;
+            }
+        }
         move = Input.GetAxis("Horizontal");
         //transform.Translate(move * Speed * Time.deltaTime,0,0);
 
@@ -93,6 +131,16 @@ public class Player : MonoBehaviour
         {
             rb.AddForce(Vector3.up*jumpPower, ForceMode.Impulse);
             isGround = false;
+        }
+
+        if(SwipeMoveTime>0)
+        {
+            SwipeMoveTime = Time.deltaTime;
+
+            if(SwipeMoveTime<=0)
+            {
+                move = 0f;
+            }
         }
     }
 
