@@ -53,13 +53,15 @@ public class Player : MonoBehaviour
         nextSpeedUp = NextSpeedUp;
 
         UpdateHearts();
+
+        //hearts[0].gameObject.SetActive(false);
     }
 
     void UpdateHearts()
     {
         for (int i = 0; i < hearts.Length; i++)
         {
-            hearts[i].enabled = i<(Maxhit - Totalhit);
+            hearts[i].gameObject.SetActive(i<(Maxhit - Totalhit));
         }
     }
 
