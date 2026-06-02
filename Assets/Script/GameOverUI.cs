@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 
 public class GameOverUI : MonoBehaviour
@@ -10,6 +11,7 @@ public class GameOverUI : MonoBehaviour
     public Player player;
     public GameObject gameOverText;
     public TextMeshProUGUI ScoreText;
+    public GameObject Panel;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class GameOverUI : MonoBehaviour
         {
             gameOverText.SetActive(true);
             ScoreText.gameObject.SetActive(true);
+            Panel.SetActive(true);
 
             //gameOverText.tag = "èIóπ" + player.name;
 
