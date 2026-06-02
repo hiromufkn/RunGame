@@ -63,86 +63,104 @@ public class Player : MonoBehaviour
 
 
         //transform.Translate(Vector3.forward * Speed * Time.deltaTime);
-        if (Input.touchCount > 0)
+        //if (Input.touchCount > 0)
+        if (Input.GetMouseButtonDown(0))
         {
-            Touch touch = Input.GetTouch(0);
-
-
-            switch (touch.phase)
-            {
-                case TouchPhase.Began:
-
-                    StartTouchPos = touch.position;
-
-                    break;
-
-                case TouchPhase.Ended:
-
-                    EndTouchPos = touch.position;
-
-                    float SwipeX = EndTouchPos.x - StartTouchPos.x;
-
-                    if(SwipeX>50f)
-                    {
-                        move = 1f;
-                        SwipeMoveTime = 0.2f;
-                    }
-
-                    if(SwipeX<50f)
-                    {
-                        move = -1f;
-                        SwipeMoveTime = 0.2f;
-                    }
-
-                    break;
-            }
+            //Touch touch = Input.GetTouch(0);
+            StartTouchPos = Input.mousePosition;
         }
-        move = Input.GetAxis("Horizontal");
-        //transform.Translate(move * Speed * Time.deltaTime,0,0);
 
-         Distance = TotalDistance+(transform.position.z-startZ);
-
-
-        if (Distance >= nextSpeedUp)
+        if (Input.GetMouseButton(0))
         {
-            nextSpeedUp += 50.0f;
-           
-            if (Speed < SpeedMax)
-            {
+            EndTouchPos = Input.mousePosition;
+            float SwipeX = EndTouchPos.x - StartTouchPos.x;
 
-                Speed += 1.0f;
+            //switch (touch.phase)
+            //{
+            //case TouchPhase.Began:
+
+            //StartTouchPos = touch.position;
+
+            //break;
+
+            //case TouchPhase.Ended:
+
+            // EndTouchPos = touch.position;
+
+            //float SwipeX = EndTouchPos.x - StartTouchPos.x;
+
+            if (SwipeX > 50f)
+            {
+                move = 1f;
+                //SwipeMoveTime = 0.2f;
             }
 
-            NextSpeedUp = nextSpeedUp;
-        }
+            else if (SwipeX < -50f)
+            {
+                move = -1f;
+               // SwipeMoveTime = 0.2f;
+            }
 
-        if(Speed<=0)
-        {
-            Speed = 0;
-            isGameOver = true;
-        }
-
-        if(Totalhit>=Maxhit)
-        {
-            isGameOver = true;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space)&&isGround)
-        {
-            rb.AddForce(Vector3.up*jumpPower, ForceMode.Impulse);
-            isGround = false;
-        }
-
-        if(SwipeMoveTime>0)
-        {
-            SwipeMoveTime = Time.deltaTime;
-
-            if(SwipeMoveTime<=0)
+            else
             {
                 move = 0f;
             }
         }
-    }
+
+        if(Input.GetMouseButtonUp(0))
+        {
+            move = 0f;
+        }
+
+            // break;
+            //}
+            //}
+            //move = Input.GetAxis("Horizontal");
+            //transform.Translate(move * Speed * Time.deltaTime,0,0);
+
+            Distance = TotalDistance + (transform.position.z - startZ);
+
+
+            if (Distance >= nextSpeedUp)
+            {
+                nextSpeedUp += 50.0f;
+
+                if (Speed < SpeedMax)
+                {
+
+                    Speed += 1.0f;
+                }
+
+                NextSpeedUp = nextSpeedUp;
+            }
+
+            if (Speed <= 0)
+            {
+                Speed = 0;
+                isGameOver = true;
+            }
+
+            if (Totalhit >= Maxhit)
+            {
+                isGameOver = true;
+            }
+
+            if (Input.GetMouseButtonDown(1) && isGround)
+            {
+                rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+                isGround = false;
+            }
+
+            if (SwipeMoveTime > 0)
+            {
+                SwipeMoveTime -= Time.deltaTime;
+
+                if (SwipeMoveTime <= 0)
+                {
+                    move = 0f;
+                }
+            }
+        }
 
     private void OnCollisionEnter(Collision collision)
     {
