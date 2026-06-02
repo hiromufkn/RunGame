@@ -4,6 +4,7 @@ using System.Net.Http.Headers;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
    public float SpeedMax = 80f;
    public static float NextSpeedUp = 50.0f;
    public int Maxhit = 5;
+    public Image[] hearts;
 
 
     private Rigidbody rb;
@@ -49,6 +51,16 @@ public class Player : MonoBehaviour
         Speed = TotalSpeed;
 
         nextSpeedUp = NextSpeedUp;
+
+        UpdateHearts();
+    }
+
+    void UpdateHearts()
+    {
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            hearts[i].enabled = i<(Maxhit - Totalhit);
+        }
     }
 
     // Update is called once per frame
@@ -183,6 +195,8 @@ public class Player : MonoBehaviour
 
             Totalhit++;
 
+            UpdateHearts();
+
             if(Speed<=3)
             {
                 Speed = 0;
@@ -198,6 +212,8 @@ public class Player : MonoBehaviour
             Speed -= 15.0f;
 
             Totalhit++;
+
+            UpdateHearts();
 
             StartCoroutine(Invincible());
         }
