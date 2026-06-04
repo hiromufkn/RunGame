@@ -24,6 +24,11 @@ public class StageManager : MonoBehaviour
 
     void Start()
     {
+        // 描画距離をプレイヤーが設定した数値にする
+        visibleDistance =
+        PlayerPrefs.GetFloat("DrawDistance", 200f);
+
+
         // Playerタグ取得
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -55,9 +60,7 @@ public class StageManager : MonoBehaviour
             // 絶対距離
             float absDistance = Mathf.Abs(distance);
 
-            // =========================
             // 200m以内なら表示
-            // =========================
 
             if (absDistance <= visibleDistance)
             {
@@ -74,12 +77,7 @@ public class StageManager : MonoBehaviour
                 }
             }
 
-            // =========================
             // 後方50m超えたら削除
-            // =========================
-
-            // distance > 0
-            // → プレイヤーが前にいる
 
             if (distance > removeDistance)
             {
