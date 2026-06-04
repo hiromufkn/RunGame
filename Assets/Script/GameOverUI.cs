@@ -31,7 +31,7 @@ public class GameOverUI : MonoBehaviour
 
             //gameOverText.tag = "èIóπ" + player.name;
 
-            ScoreText.text = "Score" + player.Distance.ToString("F0") + "m";
+            ScoreText.text = player.Distance.ToString("F0") + "m";
 
             if(Input.GetKeyDown(KeyCode.Space))
             {
