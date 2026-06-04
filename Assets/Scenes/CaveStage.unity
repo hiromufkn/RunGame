@@ -7152,7 +7152,7 @@ PrefabInstance:
     - target: {fileID: 8742544660952378663, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 869314bc31f1e6141b44d811cfdeba00, type: 2}
+      objectReference: {fileID: 11400000, guid: e226c195f159e864a886b83bca14316b, type: 2}
     - target: {fileID: 8742544660952378663, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_fontColor.b
       value: 1
