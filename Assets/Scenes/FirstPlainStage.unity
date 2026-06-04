@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 290812244}
   - component: {fileID: 290812243}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Panel2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -993,6 +993,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 421352120}
     - target: {fileID: 2353820198084408457, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: Panel2
+      value: 
+      objectReference: {fileID: 290812241}
+    - target: {fileID: 2353820198084408457, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2078486751}
@@ -1003,6 +1007,18 @@ PrefabInstance:
     - target: {fileID: 4723395232309194960, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_Name
       value: Image3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403895480255892442, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.011764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403895480255892442, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.011764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403895480255892442, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.08627451
       objectReference: {fileID: 0}
     - target: {fileID: 5542048560472486566, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_Name
@@ -1115,6 +1131,18 @@ PrefabInstance:
     - target: {fileID: 8489934571758537726, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742544660952378663, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.010012461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742544660952378663, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.010012461
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742544660952378663, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.084905684
       objectReference: {fileID: 0}
     - target: {fileID: 9099179318188356287, guid: 7b1f51f59fc618e42bd5894e70d92738, type: 3}
       propertyPath: m_AnchoredPosition.y

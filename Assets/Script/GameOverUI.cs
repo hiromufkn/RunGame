@@ -12,6 +12,7 @@ public class GameOverUI : MonoBehaviour
     public GameObject gameOverText;
     public TextMeshProUGUI ScoreText;
     public GameObject Panel;
+    public GameObject Panel2;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class GameOverUI : MonoBehaviour
             gameOverText.SetActive(true);
             ScoreText.gameObject.SetActive(true);
             Panel.SetActive(true);
+            Panel2.SetActive(false);
 
             //gameOverText.tag = "èIóπ" + player.name;
 
