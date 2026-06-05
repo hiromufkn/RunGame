@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
+//using UnityEngine.UIElements;
 
 
 public class GameOverUI : MonoBehaviour
@@ -13,10 +14,11 @@ public class GameOverUI : MonoBehaviour
     public TextMeshProUGUI ScoreText;
     public GameObject Panel;
     public GameObject Panel2;
+    public Button  Retry;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Retry.onClick.AddListener(RestartGame);
     }
 
     // Update is called once per frame
@@ -28,20 +30,23 @@ public class GameOverUI : MonoBehaviour
             ScoreText.gameObject.SetActive(true);
             Panel.SetActive(true);
             Panel2.SetActive(false);
+            Retry.gameObject.SetActive(true);
 
             //gameOverText.tag = "èIóπ" + player.name;
 
             ScoreText.text = player.Distance.ToString("F0") + "m";
 
-            if(Input.GetKeyDown(KeyCode.Space))
-            {
-                Player.Totalhit = 0;
-                Player.TotalDistance = 0f;
-                Player.TotalSpeed=7f;
-                Player.NextSpeedUp = 50f;
-
-                SceneManager.LoadScene("FirstPlainStage");
-            }
+            
         }
+    }
+
+    public void RestartGame()
+    {
+        Player.Totalhit = 0;
+        Player.TotalDistance = 0f;
+        Player.TotalSpeed = 7f;
+        Player.NextSpeedUp = 50f;
+
+        SceneManager.LoadScene("FirstPlainStage");
     }
 }
