@@ -14,7 +14,8 @@ public class GameOverUI : MonoBehaviour
     public TextMeshProUGUI ScoreText;
     public GameObject Panel;
     public GameObject Panel2;
-    public Button  Retry;
+    public Button Retry;
+    public Button Home;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +32,7 @@ public class GameOverUI : MonoBehaviour
             Panel.SetActive(true);
             Panel2.SetActive(false);
             Retry.gameObject.SetActive(true);
+            Home.gameObject.SetActive(true);
 
             //gameOverText.tag = "èIóπ" + player.name;
 
@@ -48,5 +50,10 @@ public class GameOverUI : MonoBehaviour
         Player.NextSpeedUp = 50f;
 
         SceneManager.LoadScene("FirstPlainStage");
+    }
+
+    public void Title()
+    {
+        SceneManager.LoadScene("RunGameScene");
     }
 }
