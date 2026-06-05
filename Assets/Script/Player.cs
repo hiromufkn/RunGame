@@ -123,6 +123,17 @@ public class Player : MonoBehaviour
 
         if(Input.GetMouseButtonUp(0))
         {
+            EndTouchPos = Input.mousePosition;
+
+            float SwipeX = Mathf.Abs(EndTouchPos.x - StartTouchPos.x);
+            float SwipeY = Mathf.Abs(EndTouchPos.y - StartTouchPos.y);
+
+            if (SwipeX < 30f && SwipeY < 30f && isGround)
+            {
+                rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
+                isGround=false;
+            }
+
             move = 0f;
         }
 
@@ -159,11 +170,6 @@ public class Player : MonoBehaviour
                 isGameOver = true;
             }
 
-            if (Input.GetMouseButtonDown(1) && isGround)
-            {
-                rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
-                isGround = false;
-            }
 
             if (SwipeMoveTime > 0)
             {
