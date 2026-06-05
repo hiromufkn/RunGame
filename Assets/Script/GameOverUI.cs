@@ -54,6 +54,11 @@ public class GameOverUI : MonoBehaviour
 
     public void Title()
     {
+        Player.Totalhit = 0;
+        Player.TotalDistance = 0f;
+        Player.TotalSpeed = 7f;
+        Player.NextSpeedUp = 50f;
+
         SceneManager.LoadScene("RunGameScene");
     }
 }
