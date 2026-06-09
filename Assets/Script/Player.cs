@@ -84,24 +84,24 @@ public class Player : MonoBehaviour
             StartTouchPos = Input.mousePosition;
         }
 
-        if (Input.GetMouseButton(0))
-        {
+            if (Input.GetMouseButton(0))
+          {
             EndTouchPos = Input.mousePosition;
             float SwipeX = EndTouchPos.x - StartTouchPos.x;
 
             //switch (touch.phase)
             //{
-            //case TouchPhase.Began:
+            //    case TouchPhase.Began:
 
-            //StartTouchPos = touch.position;
+            //        StartTouchPos = touch.position;
 
-            //break;
+            //        break;
 
-            //case TouchPhase.Ended:
+            //    case TouchPhase.Ended:
 
-            // EndTouchPos = touch.position;
+            //        EndTouchPos = touch.position;
 
-            //float SwipeX = EndTouchPos.x - StartTouchPos.x;
+            //        float SwipeX = EndTouchPos.x - StartTouchPos.x;
 
             if (SwipeX > 50f)
             {
@@ -112,14 +112,15 @@ public class Player : MonoBehaviour
             else if (SwipeX < -50f)
             {
                 move = -1f;
-               // SwipeMoveTime = 0.2f;
+                // SwipeMoveTime = 0.2f;
             }
 
             else
             {
                 move = 0f;
             }
-        }
+        
+    }
 
         if(Input.GetMouseButtonUp(0))
         {
