@@ -104,6 +104,9 @@ MonoBehaviour:
   isGameOver: 0
   invincibleTime: 2
   limitX: 20
+  SpeedMax: 80
+  Maxhit: 5
+  hearts: []
 --- !u!54 &4065963221955648834
 Rigidbody:
   m_ObjectHideFlags: 0
